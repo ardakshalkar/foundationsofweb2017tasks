@@ -8,4 +8,4 @@ if (isset($_COOKIE["basket"])){
 array_push($basket,$id);
 setcookie("basket",json_encode($basket));
 ?>
-<a href="task12B.php">Back</a>
+<a href="task11B.php">Back</a>

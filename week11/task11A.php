@@ -4,7 +4,7 @@ if (isset($_GET["name"])){
 }
 else if (!isset($_COOKIE["name"])){
 ?>
-<form action="task12A.php">
+<form action="task11A.php">
 Enter your name:<input type="text" name="name"/>
 <input type="submit"/>
 </form>
