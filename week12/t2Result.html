@@ -1,0 +1,91 @@
+
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+	<style>
+		.lessons .lesson{
+			border:1px solid blue;
+			border-radius:5px;
+			width:300px;
+			margin:5px;
+			overflow:hidden;
+		}
+.lesson .info{ font-size:18px;}
+.lesson .head{ background-color:darkgreen; color:white; display:flex;height:30px;font-size:16px;}
+.lesson .head .title{flex-grow:1}
+.lesson .head .credits{width:25px;height:25px;text-align:center;}
+.info span{margin:5px;}
+.info .grade_title{font-weight:bold;}
+.credits{ border-radius:1em;border:1px solid white;}
+.total{ font-weight:bold;font-size:24px;}
+.failed{ background-color:red;padding:5px;}
+	</style>
+</head>
+
+<body>
+<div class="lessons">
+	<div class="lesson"> 
+		<div class="head">
+			<div class="title">INF 301 Foundations of Web technologies</div>
+			<div class="credits">3</div>
+		</div>
+		<div class="info">
+			<span class="grade_title">FA:</span><span class="grade">30</span>
+			<span class="grade_title">Final:</span><span class="grade">20</span>
+			<span class="grade_title">Total:</span>
+							<span class="grade total failed">26</span>
+							
+		</div>
+	</div>
+
+	<div class="lesson"> 
+		<div class="head">
+			<div class="title">CSS 220 Electronics</div>
+			<div class="credits">2</div>
+		</div>
+		<div class="info">
+			<span class="grade_title">FA:</span><span class="grade">99</span>
+			<span class="grade_title">Final:</span><span class="grade">94</span>
+			<span class="grade_title">Total:</span>
+							<span class="grade total">97</span>
+							
+		</div>
+	</div>
+
+	<div class="lesson"> 
+		<div class="head">
+			<div class="title">CSS 221 Programming abstraction</div>
+			<div class="credits">3</div>
+		</div>
+		<div class="info">
+			<span class="grade_title">FA:</span><span class="grade">67</span>
+			<span class="grade_title">Final:</span><span class="grade">69</span>
+			<span class="grade_title">Total:</span>
+							<span class="grade total">67.8</span>
+							
+		</div>
+	</div>
+
+	<div class="lesson"> 
+		<div class="head">
+			<div class="title">CSS 115 English language</div>
+			<div class="credits">2</div>
+		</div>
+		<div class="info">
+			<span class="grade_title">FA:</span><span class="grade">85</span>
+			<span class="grade_title">Final:</span><span class="grade">87</span>
+			<span class="grade_title">Total:</span>
+							<span class="grade total">85.8</span>
+							
+		</div>
+	</div>
+
+</div>
+
+</body>
+
+</html>
